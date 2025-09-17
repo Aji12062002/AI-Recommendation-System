@@ -33,7 +33,8 @@ It then calls the service layer to get a list of recommended Product objects.
 Frontend: Simple HTML, CSS, and JavaScript
 The frontend provides a user interface that displays the recommendations in a clean, attractive layout. It’s built with:
 
-HTML: Structures the page, containing a heading and an unordered list (<ul>) with an ID recommendations where items are dynamically inserted.
+HTML: Structures the page, containing a heading and an unordered list
+(<ul>) with an ID recommendations where items are dynamically inserted.
 
 CSS:
 Enhances visual appeal with a gradient background, white container cards, and stylish product cards with hover effects. It’s responsive ensuring usability on various screen sizes.
