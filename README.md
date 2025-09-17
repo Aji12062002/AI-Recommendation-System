@@ -40,7 +40,8 @@ CSS:
 Enhances visual appeal with a gradient background, white container cards, and stylish product cards with hover effects. It’s responsive ensuring usability on various screen sizes.
 
 JavaScript:
-Uses the Fetch API to asynchronously request the /api/recommendations endpoint. On receiving JSON, it generates list elements (<li>) with product names and appends these to the <ul>. This happens dynamically on page load, providing a smooth user experience without page reloads.The list is serialized to JSON and sent back in the HTTP response.This well-designed layered approach promotes separation of concerns, enabling easy maintenance, testing, and future integrations (e.g., database, AI models).
+Uses the Fetch API to asynchronously request the /api/recommendations endpoint. On receiving JSON, it generates list elements
+(<li>) with product names and appends these to the <ul>. This happens dynamically on page load, providing a smooth user experience without page reloads.The list is serialized to JSON and sent back in the HTTP response.This well-designed layered approach promotes separation of concerns, enabling easy maintenance, testing, and future integrations (e.g., database, AI models).
 
 How it Works:
 When the page loads, JS fetches data for userId=1 from the backend.The returned product list is parsed and rendered in real-time.The CSS adds interactivity and polish with animations and color effects.
